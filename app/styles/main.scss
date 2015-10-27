@@ -1,9 +1,11 @@
 $icon-font-path: '../fonts/';
+$font-family-base: proxima-nova, lato !default;
 
 // bower:scss
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 @import "bower_components/font-awesome/scss/font-awesome.scss";
 // endbower
+
 
 .browserupgrade {
   margin: 0.2em 0;
@@ -41,7 +43,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-color: #21C1BA;
 }
 body {
   color: #fff;
@@ -79,11 +81,33 @@ body {
 .cover {
   padding: 0 20px;
 }
-.cover .btn-lg {
-  padding: 10px 20px;
-  font-weight: bold;
+
+h1.cover-heading {
+  font-weight: 200;
+  font-size: 52px;
+  line-height: 1.5em;
+
 }
 
+h2 {
+  font-weight: 200;
+  letter-spacing: 1.1px;
+  line-height: 1.5em;
+
+  strong {
+    font-weight: 300;
+  }
+}
+
+p.lead {
+  font-weight: 200;
+
+}
+
+p.email {
+  font-size: 16px;
+
+}
 
 /*
  * Footer
